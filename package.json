@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/asaelens02/AKS_Challenge_18_SocialNetworkAPI#readme",
   "dependencies": {
-    "mongodb": "^4.11.0"
+    "mongodb": "^4.11.0",
+    "require": "^2.4.20"
   }
 }
