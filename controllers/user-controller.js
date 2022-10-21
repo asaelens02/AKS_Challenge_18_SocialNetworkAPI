@@ -19,7 +19,7 @@ module.exports = {
         _id: req.params.userId,
       });
       !deleteUser
-        ? res.status(404).json({ message: "No such user exits" })
+        ? res.status(404).json({ message: "User does not exist" })
         : res.json("User Deleted");
     } catch (err) {
       console.log(err);
